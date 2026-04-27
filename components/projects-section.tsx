@@ -2,7 +2,7 @@ export function ProjectsSection() {
   const projects = [
     {
       title: 'AI Study Planner',
-      year: '2024',
+      year: '2026',
       description: 'An agentic AI-powered study scheduler that creates personalized, efficient study plans.',
       details:
         'The system autonomously adapts schedules based on user progress, deadlines, and learning patterns. Demonstrates practical use of AI agents for productivity and academic support.',
@@ -10,14 +10,14 @@ export function ProjectsSection() {
     },
     {
       title: 'ClipCraft',
-      year: '2024',
+      year: '2026',
       description: 'A video and content creation tool designed to streamline workflows for creators.',
       details: 'Built with a focus on automation and efficiency for content creators, enabling faster content production and distribution.',
       tags: ['Video Editing', 'Automation', 'Content Creation', 'Web App'],
     },
     {
       title: 'Temperature & Humidity Monitoring System',
-      year: '2023',
+      year: '2025',
       description: 'An Arduino-based system using LM35 sensors for real-time environmental monitoring.',
       details: 'Built a complete solution for measuring and displaying ambient temperature with analog-to-digital conversion, designed circuit and firmware code for real-time monitoring.',
       tags: ['Arduino', 'Sensors', 'IoT', 'Electronics', 'C++'],
