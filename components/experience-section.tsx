@@ -3,7 +3,7 @@ export function ExperienceSection() {
     {
       role: 'Web Developer & Chatbot Integrator',
       company: 'CoverFirst.in',
-      year: '2024',
+      year: '2025',
       description: 'Designed and developed the full website for an insurance services platform. Integrated an AI-powered chatbot to assist users with queries and site navigation. Focused on user-friendly UI/UX and seamless chatbot-to-website communication.',
       highlights: ['Full Website Design', 'AI Chatbot Integration', 'UI/UX Development'],
     },
