@@ -10,7 +10,7 @@ export function ExperienceSection() {
     {
       role: 'Intern – Arduino & Sensor Systems',
       company: 'IFIHomes',
-      year: '2024',
+      year: '2025',
       description: 'Worked with Arduino microcontrollers and sensor-based systems in a professional setting. Gained hands-on experience integrating sensors for real-time data acquisition and automation. Collaborated on embedded systems projects relevant to smart home technology.',
       highlights: ['Arduino Development', 'Sensor Integration', 'Smart Home Tech'],
     },
