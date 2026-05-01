@@ -27,7 +27,7 @@ export function ContactSection() {
       label: 'Github',
       value: 'johaan-liju',
       href: 'https://github.com/johaan-liju',
-    }
+    },
   ]
 
   return (
