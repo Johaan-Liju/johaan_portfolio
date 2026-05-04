@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const achievements = [
     {
-        icon: <Trophy className="h-8 w-8 text-primary" />,
+        icon: <Trophy className="h-10 w-10 text-primary" />,
         title: 'Foundry 2026 Winner ',
         description: 'Engineered and built a agentic ai video clipper with multi agent architecture using Ollama and Deepface, leading us to win Best Software Track',
         images: [
