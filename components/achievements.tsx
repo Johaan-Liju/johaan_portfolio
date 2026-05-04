@@ -14,7 +14,7 @@ const achievements = [
             { src: '/foundry_2.JPG', alt: 'Foundry Image 2', hint: 'clipper' },
             { src: '/foundry_3.JPG', alt: 'Foundry Image 3', hint: 'clipper' },
             { src: '/foundry_4.JPG', alt: 'Foundry Image 4', hint: 'clipper' },
-            { src: '/aces_certificate.jpg', alt: 'Foundry Image 5', hint: 'robotics competition' },
+            { src: '/aces_certificate.JPG', alt: 'Foundry Image 5', hint: 'robotics competition' },
         ]
 
     }
