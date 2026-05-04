@@ -10,8 +10,8 @@ const achievements = [
         title: 'Foundry 2026 Winner ',
         description: 'Engineered and built a agentic ai video clipper with multi agent architecture using Ollama and Deepface, leading us to win Best Software Track',
         images: [
-            { src: '/foundry_1.JPG', alt: 'Foundry Image 1', hint: 'competition' },
-            { src: '/foundry_2.JPG', alt: 'Foundry Image 2', hint: 'clipper' },
+            { src: '/foundry_2.JPG', alt: 'Foundry Image 1', hint: 'competition' },
+            { src: '/foundry_1.JPG', alt: 'Foundry Image 2', hint: 'clipper' },
             { src: '/foundry_3.JPG', alt: 'Foundry Image 3', hint: 'clipper' },
             { src: '/foundry_4.JPG', alt: 'Foundry Image 4', hint: 'clipper' },
             { src: '/aces_certificate.jpg', alt: 'Foundry Image 5', hint: 'robotics competition' },
