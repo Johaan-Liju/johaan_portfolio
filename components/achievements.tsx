@@ -8,7 +8,7 @@ const achievements = [
     {
         icon: <Trophy className="h-10 w-10 text-primary" />,
         title: 'Foundry 2026 Winner ',
-        description: 'Architected and developed an agentic AI-powered video clipping system leveraging a multi-agent pipeline with Ollama and DeepFace, securing first place in the Best Software Track.',
+        description: 'Architected and developed an agentic AI-powered video clipping system adopting a multi-agent pipeline with Ollama and DeepFace, securing first place in the Best Software Track.',
         images: [
             { src: '/foundry_2.JPG', alt: 'Foundry Image 1', hint: 'competition' },
             { src: '/foundry_1.JPG', alt: 'Foundry Image 2', hint: 'clipper' },
