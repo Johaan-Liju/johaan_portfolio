@@ -27,7 +27,8 @@ export function ContactSection() {
       label: 'GitHub',
       value: 'johaan-liju',
       href: 'https://github.com/johaan-liju',
-    }
+    }]
+    
 
   return (
     <section id="contact" className="py-20 px-4 bg-background">
