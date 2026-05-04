@@ -22,6 +22,12 @@ export function ContactSection() {
       value: 'johaan-liju',
       href: 'https://www.linkedin.com/in/johaan-liju/',
     },
+    {
+      icon: Github,
+      label: 'GitHub',
+      value: 'johaan-liju',
+      href: 'https://github.com/johaan-liju',
+    }
   ]
 
   return (
