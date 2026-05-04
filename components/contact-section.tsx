@@ -24,10 +24,17 @@ export function ContactSection() {
     },
     {
       icon: Github,
+<<<<<<< HEAD
       label: 'GitHub',
       value: 'johaan-liju',
       href: 'https://github.com/johaan-liju',
     }
+=======
+      label: 'Github',
+      value: 'johaan-liju',
+      href: 'https://github.com/johaan-liju',
+    },
+>>>>>>> 8e4bc6e21497e62ccbf4a929cc3024be2fec26c2
   ]
 
   return (
