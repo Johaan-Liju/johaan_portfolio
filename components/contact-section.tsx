@@ -10,7 +10,7 @@ export function ContactSection() {
       value: 'johaanliju@gmail.com',
       href: 'mailto:johaanliju@gmail.com',
     },
-    {
+    { 
       icon: Phone,
       label: 'Phone',
       value: '+91 9611709663',
