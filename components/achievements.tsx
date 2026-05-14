@@ -6,14 +6,14 @@ import Image from 'next/image';
 
 const achievements = [
     {
-        icon: <Trophy className="h-8 w-8 text-primary" />,
+        icon: <Trophy className="h-10 w-10 text-primary" />,
         title: 'Foundry 2026 Winner ',
-        description: 'Engineered and built a agentic ai video clipper with multi agent architecture using Ollama and Deepface, leading us to win Best Software Track',
+        description: 'Architected and developed an agentic AI-powered video clipping system adopting a multi-agent pipeline with Ollama and DeepFace, securing first place in the Best Software Track.',
         images: [
-            { src: '/foundry_1.jpg', alt: 'Foundry Image 1', hint: 'competition' },
-            { src: '/foundry_2.jpg', alt: 'Foundry Image 2', hint: 'clipper' },
-            { src: '/foundry_3.jpg', alt: 'Foundry Image 3', hint: 'clipper' },
-            { src: '/foundry_4.jpg', alt: 'Foundry Image 4', hint: 'clipper' },
+            { src: '/foundry_1.JPG', alt: 'Foundry Image 1', hint: 'competition' },
+            { src: '/foundry_2.JPG', alt: 'Foundry Image 2', hint: 'clipper' },
+            { src: '/foundry_3.JPG', alt: 'Foundry Image 3', hint: 'clipper' },
+            { src: '/foundry_4.JPG', alt: 'Foundry Image 4', hint: 'clipper' },
             { src: '/aces_certificate.jpg', alt: 'Foundry Image 5', hint: 'robotics competition' },
         ]
 
@@ -23,8 +23,6 @@ const achievements = [
 export default function Achievements() {
     return (
         <Container id="achievements" className="relative overflow-hidden">
-            <div className="absolute -left-32 -top-32 h-96 w-96 rounded-full border-2 border-dashed border-primary/20 orbit" />
-            <div className="absolute -right-32 -bottom-48 h-96 w-96 rounded-full border-2 border-dashed border-primary/20 orbit-reverse" />
             <h2 className="text-3xl font-bold text-center font-headline sm:text-4xl text-primary fade-in-up">
                 Awards & Achievements
             </h2>
