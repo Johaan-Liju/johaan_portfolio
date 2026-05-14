@@ -46,13 +46,20 @@ export function HeroSection() {
           <div className="flex flex-wrap gap-3 pt-4">
             <a
               href="#contact"
-              className="px-6 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:opacity-90 transition-opacity"
+              className="px-5 py-3 border border-border rounded-lg font-medium hover:bg-muted transition-colors"
             >
               Get in Touch
             </a>
             <a
+              href="/Johaan_Liju_James_CV.pdf"
+              download="Johaan_Liju_James_CV.pdf"
+              className="px-5 py-3 border border-border rounded-lg font-medium hover:bg-muted transition-colors"
+            >
+              Download Resume
+            </a>
+            <a
               href="#projects"
-              className="px-6 py-3 border border-border rounded-lg font-medium hover:bg-muted transition-colors"
+              className="px-5 py-3 border border-border rounded-lg font-medium hover:bg-muted transition-colors"
             >
               View My Work
             </a>

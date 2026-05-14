@@ -10,10 +10,10 @@ const achievements = [
         title: 'Foundry 2026 Winner ',
         description: 'Engineered and built a agentic ai video clipper with multi agent architecture using Ollama and Deepface, leading us to win Best Software Track',
         images: [
-            { src: '/foundry_1.JPG', alt: 'Foundry Image 1', hint: 'competition' },
-            { src: '/foundry_2.JPG', alt: 'Foundry Image 2', hint: 'clipper' },
-            { src: '/foundry_3.JPG', alt: 'Foundry Image 3', hint: 'clipper' },
-            { src: '/foundry_4.JPG', alt: 'Foundry Image 4', hint: 'clipper' },
+            { src: '/foundry_1.jpg', alt: 'Foundry Image 1', hint: 'competition' },
+            { src: '/foundry_2.jpg', alt: 'Foundry Image 2', hint: 'clipper' },
+            { src: '/foundry_3.jpg', alt: 'Foundry Image 3', hint: 'clipper' },
+            { src: '/foundry_4.jpg', alt: 'Foundry Image 4', hint: 'clipper' },
             { src: '/aces_certificate.jpg', alt: 'Foundry Image 5', hint: 'robotics competition' },
         ]
 
@@ -34,12 +34,12 @@ export default function Achievements() {
             <div className="mt-12 grid gap-12 md:grid-cols-1">
                 {achievements.map((item, index) => (
                     <Card key={item.title} className="flex flex-col md:flex-row items-center gap-8 p-6 transition-all duration-300 hover:shadow-lg hover:bg-secondary fade-in-up" style={{ animationDelay: `${200 * (index + 2)}ms` }}>
-                        <div className="md:w-1/2 w-full">
+                        <div className="md:w-2/3 w-full">
                             <Carousel className="w-full">
                                 <CarouselContent>
                                     {item.images.map((image, imgIndex) => (
                                         <CarouselItem key={imgIndex}>
-                                            <div className="relative w-full h-96 overflow-hidden rounded-lg">
+                                            <div className="relative w-full h-[400px] overflow-hidden rounded-lg">
                                                 <Image
                                                     src={image.src}
                                                     alt={image.alt}
