@@ -5,7 +5,7 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import Image from 'next/image';
 
 const achievements = [
-    {
+    { 
         icon: <Trophy className="h-10 w-10 text-primary" />,
         title: 'Foundry 2026 Winner ',
         description: 'Architected and developed an agentic AI-powered video clipping system adopting a multi-agent pipeline with Ollama and DeepFace, securing first place in the Best Software Track.',

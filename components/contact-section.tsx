@@ -28,6 +28,8 @@ export function ContactSection() {
       value: 'johaan-liju',
       href: 'https://github.com/johaan-liju',
     },
+
+
   ]
 
   return (
